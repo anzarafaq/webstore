@@ -14,3 +14,11 @@ Main idea is that:
 - User Performs a purchase
 - User can list the purchases whenever he wants
 
+
+SCHEMA:
+
+Users 
+Items
+CART (1-many relation to Items, 1-1 relationship with user)
+Purchases (1-many relation to Items, 1-1 relationship with user)
+
